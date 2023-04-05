@@ -1,0 +1,38 @@
+= Notes mobile 
+ikhlosi
+v1.0.0, 2023-02-22
+:hardbreaks:
+:hide-uri-scheme:
+:toc:
+
+== General expo commands
+
+// comment
+* To create app:
+`$ npx create-expo-app <name_of_app>`
+// [source,bash]
+// ----
+// $ npx create-expo-app <name_of_app>
+// ----
+
+* To run app:
+`$ npx expo start`
+
+* To see if logged in to expo:
+`$ npx expo whoami`
+
+* To login/register:
+`$ npx expo login/register`
+
+== Notes
+
+snippet: `rnfes`
+
+ScrollView is not interesting: it will rerender all items. Better alternative: FlatList.
+
+* `alignItems: stretch` -> `width`: will override this
+* `alignSelf`: to give a component its own flex alignment, regardless of its parent container's alignment
+
+== resources
+
+* https://flexboxfroggy.com
