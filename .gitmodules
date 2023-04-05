@@ -1,0 +1,21 @@
+[submodule "colorChanger"]
+	path = colorChanger
+	url = https://github.com/ikhlosi/colorChanger.git
+[submodule "gettingStarted"]
+	path = gettingStarted
+	url = https://github.com/ikhlosi/gettingStarted.git
+[submodule "Les03_BasicComponents"]
+	path = Les03_BasicComponents
+	url = https://github.com/ikhlosi/Les03_BasicComponents.git
+[submodule "Les04_Alignment"]
+	path = Les04_Alignment
+	url = https://github.com/ikhlosi/Les04_Alignment.git
+[submodule "Les04_TodoApp_WS"]
+	path = Les04_TodoApp_WS
+	url = https://github.com/ikhlosi/Les04_TodoApp_WS.git
+[submodule "myAppA"]
+	path = myAppA
+	url = https://github.com/ikhlosi/myAppA.git
+[submodule "TeamScore"]
+	path = TeamScore
+	url = https://github.com/ikhlosi/TeamScore.git
