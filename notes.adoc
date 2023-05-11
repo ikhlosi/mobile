@@ -10,6 +10,9 @@ v1.0.0, 2023-02-22
 // comment
 * To create app:
 `$ npx create-expo-app <name_of_app>`
+
+* TypeScript app:
+`npx create-expo-app -t expo-template-blank-typescript <name_of_app>`
 // [source,bash]
 // ----
 // $ npx create-expo-app <name_of_app>
@@ -26,6 +29,8 @@ v1.0.0, 2023-02-22
 
 == Notes
 
+=== Miscellaneous
+
 snippet: `rnfes`
 
 ScrollView is not interesting: it will rerender all items. Better alternative: FlatList.
@@ -33,6 +38,35 @@ ScrollView is not interesting: it will rerender all items. Better alternative: F
 * `alignItems: stretch` -> `width`: will override this
 * `alignSelf`: to give a component its own flex alignment, regardless of its parent container's alignment
 
+If one screen is separate from a stack of screens, you can make that one screen have the same style as the stack by wrapping it in a stack navigator as well and applying the same styling.
+
+=== Modules
+
+* react-native-uuid: `$ npm i react-native-uuid`
+* `$ npx expo install expo-font`
+
+React navigation general:
+* `$ npm install @react-navigation/native`
+* `$ npx expo install react-native-screens react-native-safe-area-context`
+
+React navigation stack:
+* `$ npm install @react-navigation/stack`
+* `$ npx expo install react-native-gesture-handler`
+
+React navigation bottom tabs:
+* `$ npm install @react-navigation/bottom-tabs`
+
+Form validation:
+* `$ npm install formik`
+* `$ npm install yup`
+
+Redux:
+* `$ npm install react-redux`
+* `$ npm install @reduxjs/toolkit`
+Redux persist data:
+* `$ npm install redux-thunk`
+* `$ npm install redux-persist`
+* `$ npx expo install @react-native-async-storage/async-storage`
 == resources
 
 * https://flexboxfroggy.com
