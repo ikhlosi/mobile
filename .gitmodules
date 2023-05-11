@@ -19,3 +19,18 @@
 [submodule "TeamScore"]
 	path = TeamScore
 	url = https://github.com/ikhlosi/TeamScore.git
+[submodule "reviewApp"]
+	path = reviewApp
+	url = https://github.com/ikhlosi/reviewApp.git
+[submodule "meetupsApp"]
+	path = meetupsApp
+	url = https://github.com/ikhlosi/meetupsApp.git
+[submodule "meetupsAppTS"]
+	path = meetupsAppTS
+	url = https://github.com/ikhlosi/meetupsAppTS.git
+[submodule "ReduxApp"]
+	path = ReduxApp
+	url = https://github.com/ikhlosi/ReduxApp.git
+[submodule "firebase_GB"]
+	path = firebase_GB
+	url = https://github.com/ikhlosi/firebase_GB.git
