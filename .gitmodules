@@ -34,3 +34,6 @@
 [submodule "firebase_GB"]
 	path = firebase_GB
 	url = https://github.com/ikhlosi/firebase_GB.git
+[submodule "Firebase_Auth_GB"]
+	path = Firebase_Auth_GB
+	url = https://github.com/ikhlosi/Firebase_Auth_GB.git

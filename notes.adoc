@@ -40,6 +40,8 @@ ScrollView is not interesting: it will rerender all items. Better alternative: F
 
 If one screen is separate from a stack of screens, you can make that one screen have the same style as the stack by wrapping it in a stack navigator as well and applying the same styling.
 
+`import 'react-native-gesture-handler'` as top import (in App.js)
+
 === Modules
 
 * react-native-uuid: `$ npm i react-native-uuid`
@@ -67,6 +69,9 @@ Redux persist data:
 * `$ npm install redux-thunk`
 * `$ npm install redux-persist`
 * `$ npx expo install @react-native-async-storage/async-storage`
+
+RN Elements
+* `$ npm install @rneui/themed @rneui/base`
 == resources
 
 * https://flexboxfroggy.com
