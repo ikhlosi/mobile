@@ -37,3 +37,6 @@
 [submodule "Firebase_Auth_GB"]
 	path = Firebase_Auth_GB
 	url = https://github.com/ikhlosi/Firebase_Auth_GB.git
+[submodule "meetupsAppFirebase"]
+	path = meetupsAppFirebase
+	url = https://github.com/ikhlosi/meetupsAppFirebase.git
